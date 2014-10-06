@@ -1,0 +1,35 @@
+System.Runtime.InteropServices.COMException occurred
+  HResult=-2147024726
+  Message=The requested resource is in use. (Exception from HRESULT: 0x800700AA)
+  Source=mscorlib
+  ErrorCode=-2147024726
+  StackTrace:
+       at System.Runtime.InteropServices.ComTypes.IStream.Write(Byte[] pv, Int32 cb, IntPtr pcbWritten)
+       at foobalator.iTunesSync.Device.SyncTracks(iTunesLibrary library) in c:\Users\Brian\Software\Developing\iTunesSync\Device.cs:line 164
+  InnerException: 
+
+This can mean the phone is locked
+
+Lumia 920 is the DEVICE name
+
+System.Runtime.InteropServices.COMException occurred
+  HResult=-2147024774
+  Message=The data area passed to a system call is too small. (Exception from HRESULT: 0x8007007A)
+  Source=mscorlib
+  ErrorCode=-2147024774
+  StackTrace:
+       at System.Runtime.InteropServices.ComTypes.IStream.Write(Byte[] pv, Int32 cb, IntPtr pcbWritten)
+       at foobalator.iTunesSync.Device.SyncTracks(iTunesLibrary library) in c:\Users\Brian\Software\Developing\iTunesSync\Device.cs:line 164
+  InnerException: 
+
+This can mean an item with this name already exists
+
+System.Runtime.InteropServices.COMException was caught
+  HResult=-2147286953
+  Message=Invalid parameter error. (Exception from HRESULT: 0x80030057 (STG_E_INVALIDPARAMETER))
+  Source=iTunesSync
+  ErrorCode=-2147286953
+  StackTrace:
+       at foobalator.iTunesSync.PortableDevicePropVariantCollectionClass.Add(VariantWrapper& pValue)
+       at foobalator.iTunesSync.Device.SyncPlaylists(iTunesLibrary library) in c:\Users\Brian\Software\Developing\iTunesSync\Device.cs:line 216
+  InnerException: 
